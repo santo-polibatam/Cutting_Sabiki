@@ -1,0 +1,6 @@
+{
+    "port": "COM3",
+    "arduino.path": "C:\\ARDUINO\\arduino-1.8.15",
+    "board": "arduino:avr:uno",
+    "sketch": "Cutting_Sabiki.ino"
+}
