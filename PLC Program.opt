@@ -51,20 +51,19 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
-  Visible:=0;
-  Pos:="0 0";
+  Pos:="1174 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 0 0 -1";
+  MRUDockPos:="1174 5 2341 564";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-1252163682 0";
+  MRUFloatPos:="-1878704191 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="1000000";
+  PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="300 180";
+  MRUHorzDock:="1167 559";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -76,20 +75,19 @@ BEGIN
  Bar[3]:=
  BEGIN
   BarID:=59412;
-  Visible:=0;
-  Pos:="510 3";
+  Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="510 3 1376 183";
+  MRUDockPos:="1 5 1168 564";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-1252163682 0";
+  MRUFloatPos:="-1878704191 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="866 180";
+  MRUHorzDock:="1167 559";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -102,19 +100,19 @@ BEGIN
  BEGIN
   BarID:=59416;
   Visible:=0;
-  Pos:="1 3";
+  Pos:="1 4";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 3 868 183";
+  MRUDockPos:="1 4 868 184";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-1252163682 0";
+  MRUFloatPos:="-1878704191 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="867 180";
+  MRUHorzDock:="867 559";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -129,9 +127,9 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 -2 300 850";
+  MRUDockPos:="0 -2 300 438";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-1252163682 0";
+  MRUFloatPos:="-1878704191 0";
   Style:=8084;
   ExStyle:=3889;
   PrevFloating:=0;
@@ -139,7 +137,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="300 852";
+  MRUVertDock:="300 440";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -156,14 +154,14 @@ BEGIN
   MRUDockID:=0;
   MRUDockPos:="0 0 0 0";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-1252163682 0";
+  MRUFloatPos:="-1878704191 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="300 180";
+  MRUHorzDock:="300 559";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -173,21 +171,20 @@ BEGIN
   ResourceID:=0;
  END;
  Bars:=7;
- Screen:="2048 1080";
+ Screen:="2341 1234";
 END;
 ProjectTree:=
 BEGIN
  Item[0]:=0;
  Item[1]:=2;
- Item[2]:=13;
- Item[3]:=14;
+ Item[2]:=12;
+ Item[3]:=13;
  ItemCount:=4;
- Sumcheck:=44;
- Selected:=20;
+ Sumcheck:=45;
+ Selected:=19;
 END;
 Frame[0]:=
 BEGIN
- Max:=true;
  Norm:="0000 0000 0881 0312";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.END!END";
@@ -200,7 +197,38 @@ BEGIN
   nViews:=1;
  END;
 END;
-nFrames:=1;
+Frame[1]:=
+BEGIN
+ Norm:="0078 0078 1879 0570";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Stepper1_Move!Stepper1_Move";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=1;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[2]:=
+BEGIN
+ Max:=true;
+ Norm:="0052 0052 1853 0544";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Stepper2_Move!Stepper2_Move";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=1;
+  END;
+  nViews:=1;
+ END;
+END;
+nFrames:=3;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
@@ -210,11 +238,203 @@ BEGIN
   ColumnWidth[0]:=60;
   ColumnWidth[1]:=60;
   ColumnWidth[2]:=60;
-  ColumnWidth[3]:=60;
-  ColumnWidth[4]:=60;
-  ColumnWidth[5]:=60;
-  NumWatches:=1;
+  ColumnWidth[3]:=146;
+  ColumnWidth[4]:=98;
+  ColumnWidth[5]:=62;
+  NumWatches:=25;
   Watch[0]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D100";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[1]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D101";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[2]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D102";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[3]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D103";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[4]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D104";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[5]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D105";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[6]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D106";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[7]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D107";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[8]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D108";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[9]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D109";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[10]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D110";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[11]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D111";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[12]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D200";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[13]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D201";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[14]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D202";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[15]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D203";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[16]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D204";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[17]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D205";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[18]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D206";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[19]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D207";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[20]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D208";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[21]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D209";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[22]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D210";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[23]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D211";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[24]:=
   BEGIN
   END;
  END;
